@@ -55,3 +55,12 @@ import datetime
 
 dt_today = '2024/01/04'; 
 convert_date = datetime.datetime.strptime(dt_today, "%y/%m/%d"); 
+
+
+#dictionary 
+
+first_dic = {"name": "Anu", "age": 20, "height": 170, "weight": 50}; 
+second_dic = {"name": "Tsolmon", "age": 25}; 
+combined_dic = {"fist": first_dic, "second": second_dic}; 
+
+first_dic["age"]; 
